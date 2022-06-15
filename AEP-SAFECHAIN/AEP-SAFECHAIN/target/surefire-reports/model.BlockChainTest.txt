@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: model.BlockChainTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec <<< FAILURE!
+model.BlockChainTest.testCriarBlockchain()  Time elapsed: 0.019 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: O objeto pessoa não é nulo! Teste falhou. ==> expected: <null> but was: <model.Bloco@759ebb3d>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertNull.failNotNull(AssertNull.java:48)
+	at org.junit.jupiter.api.AssertNull.assertNull(AssertNull.java:37)
+	at org.junit.jupiter.api.Assertions.assertNull(Assertions.java:266)
+	at model.BlockChainTest.testCriarBlockchain(BlockChainTest.java:35)
+
+model.BlockChainTest.testCriarBlockchainDois()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: O objeto pessoa possui parâmetros! ==> expected: <null> but was: <model.Bloco@15615099>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertNull.failNotNull(AssertNull.java:48)
+	at org.junit.jupiter.api.AssertNull.assertNull(AssertNull.java:37)
+	at org.junit.jupiter.api.Assertions.assertNull(Assertions.java:266)
+	at model.BlockChainTest.testCriarBlockchainDois(BlockChainTest.java:41)
+

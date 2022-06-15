@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: model.BlocoTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec <<< FAILURE!
+model.BlocoTest.testAdicionar()  Time elapsed: 0.016 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: O objeto não é nulo! ==> expected: <null> but was: <model.Informacao@759ebb3d>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertNull.failNotNull(AssertNull.java:48)
+	at org.junit.jupiter.api.AssertNull.assertNull(AssertNull.java:37)
+	at org.junit.jupiter.api.Assertions.assertNull(Assertions.java:266)
+	at model.BlocoTest.testAdicionar(BlocoTest.java:41)
+
+model.BlocoTest.testAdicionarDois()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Não é nulo. ==> expected: <null> but was: <model.Informacao@ee7d9f1>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertNull.failNotNull(AssertNull.java:48)
+	at org.junit.jupiter.api.AssertNull.assertNull(AssertNull.java:37)
+	at org.junit.jupiter.api.Assertions.assertNull(Assertions.java:266)
+	at model.BlocoTest.testAdicionarDois(BlocoTest.java:54)
+
